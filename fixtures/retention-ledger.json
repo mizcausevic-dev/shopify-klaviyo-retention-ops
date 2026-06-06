@@ -1,0 +1,38 @@
+{
+  "estate": "Shopify storefront and Klaviyo lifecycle estate across welcome, replenishment, winback, VIP, and discount-control flows.",
+  "segments": [
+    {
+      "segmentId": "vip-repeat-buyers",
+      "owner": "Lifecycle marketing",
+      "shopifyRevenueAtRisk": 92000,
+      "klaviyoFlowGapDays": 18,
+      "repeatPurchaseDecay": 22,
+      "discountLeakPercent": 9,
+      "deliverabilityRisk": 18,
+      "inventoryMismatchCount": 3,
+      "nextAction": "Rebuild VIP replenishment timing before discount leaks train high-value customers into margin-negative repeat orders."
+    },
+    {
+      "segmentId": "first-purchase-no-second-order",
+      "owner": "Retention operations",
+      "shopifyRevenueAtRisk": 134000,
+      "klaviyoFlowGapDays": 31,
+      "repeatPurchaseDecay": 34,
+      "discountLeakPercent": 5,
+      "deliverabilityRisk": 12,
+      "inventoryMismatchCount": 1,
+      "nextAction": "Move second-order education and replenishment proof ahead of blanket winback discounts."
+    },
+    {
+      "segmentId": "holiday-discount-cohort",
+      "owner": "Growth marketing",
+      "shopifyRevenueAtRisk": 47000,
+      "klaviyoFlowGapDays": 9,
+      "repeatPurchaseDecay": 12,
+      "discountLeakPercent": 14,
+      "deliverabilityRisk": 9,
+      "inventoryMismatchCount": 2,
+      "nextAction": "Suppress broad seasonal discounting until cohort margin and inventory availability are aligned."
+    }
+  ]
+}
