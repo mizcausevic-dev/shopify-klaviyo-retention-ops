@@ -27,7 +27,38 @@ export function renderPage(input: RetentionInput): string {
         <p>Demo fixtures are synthetic and credential-free; the pattern is reusable for real diligence packets without exposing customer or regulated data.</p>
       </article>
     </section>
-    <footer>Primary recommendation: ${summary.primaryRecommendation}</footer></main></body></html>`;
+    <section class="proof-pack" aria-label="Product depth and shared pattern">
+      <article class="proof-card">
+        <small>Product purpose</small>
+        <h2>What this product does</h2>
+        <p>A retention operations surface for commerce teams where Shopify events, Klaviyo flows, segmentation, offer logic, and attribution need to be aligned before revenue leaks.</p>
+      </article>
+      <article class="proof-card">
+        <small>Go-to-market lens</small>
+        <h2>Why buyers would care</h2>
+        <p>For ecommerce buyers, the page links lifecycle operations to retention, conversion quality, offer discipline, and customer experience.</p>
+      </article>
+      <article class="proof-card">
+        <small>Value architecture</small>
+        <h2>How it turns into action</h2>
+        <p>It turns broken flows, stale segments, and attribution gaps into a practical cleanup queue tied to revenue impact.</p>
+      </article>
+      <article class="proof-card">
+        <small>Technical proof</small>
+        <h2>How reviewers can trust it</h2>
+        <p>The proof uses synthetic commerce and lifecycle data, typed scoring, static rendering, route output, and public-safe evidence.</p>
+      </article>
+      <article class="proof-card">
+        <small>What these repos have in common</small>
+        <h2>Platform complexity becomes board-ready operating proof.</h2>
+        <p>Each repo names a buyer pain, exposes an evidence model, produces a reusable artifact, and keeps the public page safe with synthetic data instead of credentials or customer exports.</p>
+      </article>
+      <article class="proof-card">
+        <small>Interlinks</small>
+        <h2>Where this fits</h2>
+        <p><a href="https://portfolio.kineticgain.com/">Portfolio</a> · <a href="https://kineticgain.com/">Kinetic Gain</a> · <a href="https://github.com/mizcausevic-dev/shopify-klaviyo-retention-ops">GitHub</a></p>
+      </article>
+    </section><footer>Primary recommendation: ${summary.primaryRecommendation}</footer></main></body></html>`;
 }
 
 export function createApp() {
